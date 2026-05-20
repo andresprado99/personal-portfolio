@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Andrés Prado - Data Analyst & AI Builder. Transforming data into decisions and ideas into products.">
+    <title>Andrés Prado | Data Analyst & AI Builder</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">AP.</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact" class="btn-primary-small">Get in touch</a>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" id="mobile-menu" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-nav-overlay" id="mobile-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="noise-overlay"></div>
+        </div>
+        
+        <div class="container hero-content">
+            <div class="profile-img-container">
+                <img src="_assets/perfil.jpg" alt="Andrés Prado" class="profile-img">
+            </div>
+            
+            <h1 class="hero-title">Andrés Prado</h1>
+            <h2 class="hero-subtitle">Data Analyst <span class="highlight">·</span> AI Builder</h2>
+            
+            <p class="hero-description">
+                I turn data into decisions and ideas into products.<br>
+                3 years of experience in sustainable finance + building AI tools for real businesses.
+            </p>
+            
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">View my work &darr;</a>
+                <a href="_assets/AndresPrado_CVe.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
+                <a href="https://www.linkedin.com/in/andrespradovicente/" target="_blank" class="btn btn-outline">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="lead">I'm a physicist-turned-data analyst who got hooked on building things.</p>
+                    
+                    <p>After 3 years at Clarity AI working on ESG data infrastructure — improving validation pipelines by 38%, defining metrics for their SaaS platform, and building dashboards that ended up in joint reports with CDP — I spent a year in Australia and came back with a clear direction: use AI to build real tools for real people.</p>
+                    
+                    <p>Now I freelance building chatbots, web apps, and automation systems for small businesses using Claude, n8n, and Supabase. And I'm looking for a team where I can do both: serious data work and smart AI applications.</p>
+                    
+                    <div class="about-journey">
+                        <span class="journey-node">Physics</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        <span class="journey-node">Finance Data</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        <span class="journey-node highlight">AI Products</span>
+                    </div>
+                </div>
+                
+                <div class="about-timeline visual-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2017 - 2021</div>
+                        <div class="timeline-content">UGR (Physics)</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 - 2024</div>
+                        <div class="timeline-content">Clarity AI</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2025</div>
+                        <div class="timeline-content">Australia Year</div>
+                    </div>
+                    <div class="timeline-item active">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2026 - Present</div>
+                        <div class="timeline-content highlight">AI Freelance</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Arsenal</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                        <h3>Data & Analytics</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Snowflake</span>
+                        <span class="skill-tag">AWS</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category highlight-border">
+                    <div class="skill-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        <h3>AI & Automation</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag premium">Claude / Claude Code</span>
+                        <span class="skill-tag premium">n8n</span>
+                        <span class="skill-tag premium">Supabase</span>
+                        <span class="skill-tag premium">ChatGPT</span>
+                        <span class="skill-tag premium">Antigravity</span>
+                        <span class="skill-tag premium">Prompt Engineering</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="skill-header">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                        <h3>Other</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">A/B Testing</span>
+                        <span class="skill-tag">Data Governance</span>
+                        <span class="skill-tag">ESG / Sustainable Finance</span>
+                        <span class="skill-tag">Jira</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="languages-row">
+                <div class="lang-item">
+                    <span class="lang-name">Spanish</span>
+                    <span class="lang-level native">Native</span>
+                </div>
+                <div class="lang-item">
+                    <span class="lang-name">English</span>
+                    <span class="lang-level c1">C1 · 4+ yrs professional</span>
+                </div>
+                <div class="lang-item">
+                    <span class="lang-name">Italian</span>
+                    <span class="lang-level b2">B2 · ERASMUS+</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Things I've Built</h2>
+                <div class="section-line"></div>
+            </div>
+            <p class="section-subtitle">Real tools deployed for real clients — built fast, using modern AI stacks.</p>
+            
+            <div class="projects-grid">
+
+                <div class="project-card" data-project="chatbot" role="button" tabindex="0">
+                    <div class="card-icon">🤖</div>
+                    <div class="card-content">
+                        <span class="project-tag">Chatbot · AI</span>
+                        <h3 class="project-title">Physiotherapy Assistant Chatbot</h3>
+                        <p class="project-desc">AI-powered WhatsApp chatbot for a physio clinic. Handles patient queries and voice messages 24/7.</p>
+                        <div class="project-stack"><code>Claude API</code> <code>n8n</code> <code>Supabase</code></div>
+                        <span class="card-cta">Explore project →</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="physioWeb" role="button" tabindex="0">
+                    <div class="card-icon">🌐</div>
+                    <div class="card-content">
+                        <span class="project-tag">Web · Fullstack</span>
+                        <h3 class="project-title">Physiotherapy Clinic Website</h3>
+                        <p class="project-desc">Complete web presence for a physio practice. SEO, testimonials and online consultation booking.</p>
+                        <div class="project-stack"><code>Next.js</code> <code>Supabase</code> <code>Tailwind</code></div>
+                        <span class="card-cta">Explore project →</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="sportsDir" role="button" tabindex="0">
+                    <div class="card-icon">🗺️</div>
+                    <div class="card-content">
+                        <span class="project-tag">Directory · Web App</span>
+                        <h3 class="project-title">Valencia Sports Directory</h3>
+                        <p class="project-desc">Searchable directory of sports clubs, gyms and activities across Valencia by sport and neighbourhood.</p>
+                        <div class="project-stack"><code>Next.js</code> <code>Supabase</code> <code>Claude</code></div>
+                        <span class="card-cta">Explore project →</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="runnerApp" role="button" tabindex="0">
+                    <div class="card-icon">🏃</div>
+                    <div class="card-content">
+                        <span class="project-tag">Mobile App · Gamification</span>
+                        <h3 class="project-title">City Runner — Territory Game</h3>
+                        <p class="project-desc">Multiplayer running game where you capture real city blocks as you run, with live leaderboards and avatar customisation.</p>
+                        <div class="project-stack"><code>React Native</code> <code>Expo</code> <code>TypeScript</code></div>
+                        <span class="card-cta">Explore project →</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="highlights" role="button" tabindex="0">
+                    <div class="card-icon">🎬</div>
+                    <div class="card-content">
+                        <span class="project-tag">AI · Video · Automation</span>
+                        <h3 class="project-title">AI Highlights Generator</h3>
+                        <p class="project-desc">Automated pipeline that turns long-form video into social media clips using AI to find the best moments.</p>
+                        <div class="project-stack"><code>Python</code> <code>FFmpeg</code> <code>n8n</code></div>
+                        <span class="card-cta">Explore project →</span>
+                    </div>
+                </div>
+
+                <div class="project-card premium-card" data-project="tfg" role="button" tabindex="0">
+                    <div class="card-icon">🦷</div>
+                    <div class="card-content">
+                        <span class="project-tag highlight">Deep Learning · Computer Vision</span>
+                        <h3 class="project-title">Dental Neural Network (Thesis)</h3>
+                        <p class="project-desc">U-Net CNN for dental image segmentation. 87% IoU accuracy identifying upper incisors and mapping colour properties.</p>
+                        <div class="project-stack"><code>TensorFlow</code> <code>Python</code> <code>K-Means</code> <code>CIELAB</code></div>
+                        <span class="card-cta">Explore project →</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <div class="two-column-layout">
+                
+                <!-- Experience -->
+                <div class="work-experience">
+                    <div class="section-header">
+                        <h2 class="section-title">Experience</h2>
+                        <div class="section-line"></div>
+                    </div>
+                    
+                    <div class="timeline">
+                        <div class="timeline-entry">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-meta">Jan 2026 – Present</div>
+                                <h3>AI Freelance</h3>
+                                <p>Implementation of chatbots and web solutions for small businesses. Building apps and directories using modern AI tools.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-entry main-entry">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-meta">Feb 2022 – Dec 2024 · Madrid, Spain</div>
+                                <h3>Clarity AI</h3>
+                                <div class="sub-roles">
+                                    <div class="sub-role">
+                                        <h4>Associate – Regulation <span>(Sep 2023 – Dec 2024)</span></h4>
+                                        <ul>
+                                            <li>Complex data analysis and dashboards (incl. joint report with CDP)</li>
+                                            <li>Defined 10+ ESG metrics for the company's SaaS platform</li>
+                                            <li>ETL pipeline development for multiple external data providers</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-role">
+                                        <h4>Junior Associate – Regulation <span>(Jul 2022 – Sep 2023)</span></h4>
+                                        <ul>
+                                            <li>Improved data validation processes by 38% using SQL & Python</li>
+                                            <li>Data integration solutions for the main database</li>
+                                        </ul>
+                                    </div>
+                                    <div class="sub-role">
+                                        <h4>Intern – Regulation <span>(Feb 2022 – Jul 2022)</span></h4>
+                                        <ul>
+                                            <li>First exposure to real-world data infrastructure</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-entry">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-meta">Jan 2025 – Nov 2025 · Australia</div>
+                                <h3>International Experience</h3>
+                                <p>Career break with professional experience in fast-paced environments.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="education">
+                    <div class="section-header">
+                        <h2 class="section-title">Education</h2>
+                        <div class="section-line"></div>
+                    </div>
+
+                    <div class="edu-card">
+                        <div class="edu-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-color)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                        </div>
+                        <div class="edu-content">
+                            <h3>BSc Physics (Computational Physics)</h3>
+                            <h4>University of Granada · 2017 – 2021</h4>
+                            <p class="edu-desc">Academic exchanges: University of Turin (ERASMUS+) · Complutense University of Madrid.</p>
+                            <div class="edu-highlight">
+                                <strong>Thesis:</strong> U-Net convolutional neural network for dental image segmentation (Deep Learning / Computer Vision).
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer class="contact section" id="contact">
+        <div class="container">
+            <h2 class="contact-title">Let's work together</h2>
+            <p class="contact-subtitle">Currently available for freelance projects and full-time roles in data and AI.</p>
+            
+            <div class="contact-info">
+                <a href="mailto:andres.pradovicente@gmail.com" class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <span>andres.pradovicente@gmail.com</span>
+                </a>
+                <a href="tel:+34624080642" class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <span>+34 624 080 642</span>
+                </a>
+                <a href="https://www.linkedin.com/in/andrespradovicente/" target="_blank" class="contact-item">
+                    <div class="contact-icon">🔗</div>
+                    <span>LinkedIn: Andrés Prado</span>
+                </a>
+            </div>
+            
+            <div class="contact-actions">
+                <a href="mailto:andres.pradovicente@gmail.com" class="btn btn-primary btn-lg">Send me an email</a>
+                <a href="_assets/AndresPrado_CVe.pdf" target="_blank" class="btn btn-outline btn-lg">Download CV</a>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Andrés Prado. Handcrafted with precision and modern AI tools.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat demo template (cloned into modal by JS) -->
+    <template id="chatDemoTemplate">
+        <div class="chat-tabs">
+            <button class="chat-tab active" data-tab="conv1">Conv. 1</button>
+            <button class="chat-tab" data-tab="conv2">Conv. 2</button>
+            <button class="chat-tab" data-tab="conv3">Conv. 3</button>
+        </div>
+
+        <!-- Conversation 1: Real audio messages -->
+        <div class="chat-mockup chat-conv active" id="conv1">
+            <div class="chat-header">
+                <span class="chat-dot"></span> Asistente WhatsApp · manejatupubalgia.es
+            </div>
+            <div class="chat-body">
+                <div class="chat-date-sep">Mié 30 Abr · Andrés, 25</div>
+                <div class="chat-msg user audio-msg" data-src="_assets/chatbot/audio_example_1.ogg">
+                    <button class="play-btn" aria-label="Play">▶</button>
+                    <div class="waveform"><span style="height:5px"></span><span style="height:11px"></span><span style="height:7px"></span><span style="height:14px"></span><span style="height:9px"></span><span style="height:13px"></span><span style="height:6px"></span><span style="height:10px"></span><span style="height:14px"></span><span style="height:8px"></span><span style="height:12px"></span><span style="height:5px"></span><span style="height:10px"></span><span style="height:7px"></span><span style="height:9px"></span><span style="height:13px"></span></div>
+                    <span class="audio-duration">0:18</span>
+                    <audio preload="none"><source src="_assets/chatbot/audio_example_1.ogg" type="audio/ogg"></audio>
+                </div>
+                <div class="chat-msg bot">Buenas tío!! Me alegro que te hayas animado, eso ya es un paso importante 💪<br>Por ponerme en contexto, ¿de dónde eres y cuántos años tienes?</div>
+                <div class="chat-msg user audio-msg" data-src="_assets/chatbot/audio_example_2.ogg">
+                    <button class="play-btn" aria-label="Play">▶</button>
+                    <div class="waveform"><span style="height:8px"></span><span style="height:13px"></span><span style="height:5px"></span><span style="height:11px"></span><span style="height:14px"></span><span style="height:7px"></span><span style="height:10px"></span><span style="height:6px"></span><span style="height:13px"></span><span style="height:9px"></span><span style="height:12px"></span><span style="height:4px"></span><span style="height:11px"></span><span style="height:8px"></span><span style="height:6px"></span><span style="height:10px"></span></div>
+                    <span class="audio-duration">0:23</span>
+                    <audio preload="none"><source src="_assets/chatbot/audio_example_2.ogg" type="audio/ogg"></audio>
+                </div>
+                <div class="chat-msg bot">Ah genial tío, Jerusalén, qué pasada 🌍<br>¿Llevas mucho tiempo con molestias o esto te viene de hace poco?</div>
+                <div class="chat-msg user">Llevo 4 meses con dolores. ¿Podrías mandarme un audio explicándome el programa?</div>
+                <div class="chat-msg bot">Claro tío 👇 Básicamente valoro tu caso y te guío paso a paso con ejercicios y vídeos en una app. Tienes mi soporte por WhatsApp y hacemos seguimiento para ver cómo progresas.<br>¿Te gustaría que te explique más en detalle?</div>
+            </div>
+        </div>
+
+        <!-- Conversation 2: Emotional impact -->
+        <div class="chat-mockup chat-conv" id="conv2">
+            <div class="chat-header">
+                <span class="chat-dot"></span> Asistente WhatsApp · manejatupubalgia.es
+            </div>
+            <div class="chat-body">
+                <div class="chat-date-sep">Lun 27 Abr · Javier, 31</div>
+                <div class="chat-msg bot">¿Cómo te está afectando esto en el día a día?</div>
+                <div class="chat-msg user">El problema es que no puedo esprintar. Me noto tenso, lento... el día después de jugar estoy más jodido</div>
+                <div class="chat-msg bot">Ya tío, es que la mayoría venís justo por eso: no podéis rendir al 100% aunque fuera del fútbol no sea tan grave.<br>A nivel mental, ¿te está afectando?</div>
+                <div class="chat-msg user">Sí... al final el fútbol es mi pasión. Como Oliver y Benji 😅 Ver que no puedo jugar o jugar con miedo se me está haciendo muy duro</div>
+                <div class="chat-msg bot">Joder tío, te entiendo perfectamente 💪<br>Es que cuando el fútbol es lo que más te llena, cualquier cosa que te lo quite te deja tocado.<br>¿Has pensado alguna vez en dejarlo?</div>
+                <div class="chat-msg user">Pues sí tío... lo he pensado. Un veterano de mi equipo me dijo que muchos amigos suyos se han tenido que retirar por esto</div>
+                <div class="chat-msg bot">Tío, entiendo que estés en ese punto. Pero exactamente para eso estoy aquí — para que no tengas que tomar esa decisión 🙏</div>
+            </div>
+        </div>
+
+        <!-- Conversation 3: Testimonials & personalised plan -->
+        <div class="chat-mockup chat-conv" id="conv3">
+            <div class="chat-header">
+                <span class="chat-dot"></span> Asistente WhatsApp · manejatupubalgia.es
+            </div>
+            <div class="chat-body">
+                <div class="chat-date-sep">Mar 29 Abr · Sergio, 28</div>
+                <div class="chat-msg bot">Si quieres ver todos los testimonios de jugadores que han pasado por esto, los tienes aquí 👇<br><strong>manejatupubalgia.es</strong><br>¿Hay alguno que te haya llamado especialmente la atención?</div>
+                <div class="chat-msg user">El de Galder me ha motivado mucho. Yo tampoco le veo fin a esta lesión... después de tantos meses siento que me va a tocar vivir siempre con ella</div>
+                <div class="chat-msg bot">Joder tío, te entiendo porque con esta lesión es fácil pensar que no se sale nunca.<br>Pero ya has visto que Galder también pensaba igual y al final volvió a jugar bien 💪<br>¿Te has planteado alguna vez hacer un plan totalmente personalizado?</div>
+                <div class="chat-msg user">No... solo he ido haciendo ejercicios que me recomendaban fisios o conocidos. Me han dicho que me toca aprender a vivir con ello</div>
+                <div class="chat-msg bot">Eso lo he escuchado mil veces 😅<br>Muchos llegan pensando lo mismo, pero te aseguro que hay opciones reales para mejorar y volver a jugar bien</div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Project Modal -->
+    <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-panel">
+            <button class="modal-close" id="modalClose" aria-label="Cerrar">✕</button>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+Vamos a añadir los mockups de conversacion del chatbot al portfolio
+Te pego el texto de los intercambios interesantes (si vas a ponerles nombres en el mockup, no pongas Andres Prado en todas)
+
+
+[08:56, 30/04/2026] Andres Prado: "audio_example_1.ogg"
+[09:00, 30/04/2026] Test Number n8n: Buenas tío!!
+[09:01, 30/04/2026] Test Number n8n: Me alegro que te hayas animado, eso ya es un paso importante
+[09:01, 30/04/2026] Test Number n8n: Por ponerme un poco en contexto, de donde eres y cuantos años tienes??
+[09:10, 30/04/2026] Andres Prado: "audio_example_2.ogg"
+[09:13, 30/04/2026] Test Number n8n: Ah genial tío, Jerusalén, qué pasada
+[09:13, 30/04/2026] Test Number n8n: Te pregunto, llevas mucho tiempo con molestias o esto te viene de hace poco??
+[10:56, 30/04/2026] Andres Prado: Llevo 4 meses con dolores
+[10:57, 30/04/2026] Andres Prado: Podrías mandarme un audio explicándome el programa?
+[10:58, 30/04/2026] Test Number n8n: Claro tío, te cuento por aquí cómo funciona
+[10:58, 30/04/2026] Test Number n8n: Y si te cuadra luego te mando un audio sin problema
+[10:58, 30/04/2026] Test Number n8n: Básicamente, lo que hago es valorar tu caso y a partir de ahí te voy guiando paso a paso con ejercicios y vídeos en una app
+[10:58, 30/04/2026] Test Number n8n: Para que puedas avanzar a tu ritmo
+[10:58, 30/04/2026] Test Number n8n: Además, tienes mi soporte por WhatsApp y hacemos seguimiento para ver cómo progresas
+[10:59, 30/04/2026] Test Number n8n: Te gustaría que te explique más en detalle cómo sería para ti??
+[11:00, 30/04/2026] Andres Prado: Si porfa
+[11:01, 30/04/2026] Test Number n8n: Perfecto, te explico un poco más en detalle
+[11:01, 30/04/2026] Test Number n8n: Lo que hago es primero valorar tu caso para ver exactamente qué necesitas
+[11:02, 30/04/2026] Test Number n8n: A partir de ahí te dejo en una app todo lo que tienes que ir haciendo, con vídeos y explicaciones
+[11:02, 30/04/2026] Test Number n8n: Así puedes avanzar a tu ritmo, y yo te voy guiando y revisando cómo vas, para ir ajustando si hace falta
+[11:02, 30/04/2026] Test Number n8n: Además tienes mi contacto por WhatsApp para dudas rápidas
+[11:02, 30/04/2026] Test Number n8n: Te gustaría ver algún testimonio de otros futbolistas que han pasado por lo mismo??
+[11:06, 30/04/2026] Andres Prado: Ya he visto algunos de los testimonios
+[11:06, 30/04/2026] Andres Prado: Es lo que me hizo escribirte
+[11:07, 30/04/2026] Test Number n8n: Ah genial tío, me alegro que te hayan servido para dar el paso
+[11:07, 30/04/2026] Test Number n8n: Llevas ya 4 meses con molestias
+[11:07, 30/04/2026] Test Number n8n: Te ha limitado mucho para entrenar o jugar últimamente??
+[11:08, 30/04/2026] Andres Prado: Al principio no tanto
+[11:08, 30/04/2026] Andres Prado: Pero ahora el dolor es insoportable
+[11:09, 30/04/2026] Test Number n8n: Joder tío, siento que haya llegado a ese punto
+[11:09, 30/04/2026] Test Number n8n: Hay días que puedes entrenar igual o ya te cuesta hasta caminar??
+[11:12, 30/04/2026] Andres Prado: Nada nada
+[11:12, 30/04/2026] Andres Prado: he tenido que dejar de entrenar
+[11:12, 30/04/2026] Andres Prado: Antes calentar la zona me calmaba un poco
+[11:12, 30/04/2026] Andres Prado: Pero ahora esq ni con esas
+[11:12, 30/04/2026] Andres Prado: 2 carreras y ya no puedo más
+[11:13, 30/04/2026] Test Number n8n: Joder tío, qué faena
+[11:14, 30/04/2026] Test Number n8n: Suele pasar que al principio aún te deja entrenar un poco
+[11:14, 30/04/2026] Test Number n8n: Pero cuando ya ni calentando mejora, la cosa se complica
+[11:14, 30/04/2026] Test Number n8n: Te está afectando también fuera del fútbol??
+ ----------------------------------------
+[21:47, 27/04/2026] Test Number n8n: Por curiosidad, llegaste a ver los testimonios de otros jugadores que se han recuperado conmigo??
+[21:48, 27/04/2026] Andres Prado: Siii
+[21:48, 27/04/2026] Andres Prado: Es lo que me ha motivado a escribirte
+[21:48, 27/04/2026] Andres Prado: Que dicen exactamente lo mismo que pienso yo
+[21:48, 27/04/2026] Andres Prado: Que no había solución a esto
+[21:49, 27/04/2026] Test Number n8n: Totalmente, mucha gente me escribe justo por eso
+[21:49, 27/04/2026] Test Number n8n: Porque se ven reflejados en los casos de otros jugadores que ya han pasado por lo mismo
+[21:50, 27/04/2026] Test Number n8n: Y en tu caso, cómo te está afectando esto en el día a día??
+[21:56, 27/04/2026] Andres Prado: Pues más o menos
+[21:56, 27/04/2026] Andres Prado: No me afecta demasiado en mi día a día
+[21:56, 27/04/2026] Andres Prado: Quitando el día despues de jugar
+[21:56, 27/04/2026] Andres Prado: Que estoy más jodido
+[21:56, 27/04/2026] Andres Prado: El problema esq no puedo esprintar
+[21:56, 27/04/2026] Andres Prado: Me noto tenso, lento...
+[21:57, 27/04/2026] Test Number n8n: Ya tío, es que la mayoría venís justo por eso, porque no podéis rendir al 100% aunque fuera del fútbol no sea tan grave
+[21:57, 27/04/2026] Test Number n8n: A nivel mental, te está afectando??
+[21:57, 27/04/2026] Test Number n8n: Te rayas después de los partidos o lo llevas bien??
+[22:02, 27/04/2026] Andres Prado: Sí un poco
+[22:02, 27/04/2026] Andres Prado: Al final el futbol es mi pasión
+[22:02, 27/04/2026] Andres Prado: Como Oliver y Benji
+[22:02, 27/04/2026] Andres Prado: Y ver que no puedo jugar
+[22:03, 27/04/2026] Andres Prado: O jugar con miedo se me está haciendo muy duro
+[22:04, 27/04/2026] Test Number n8n: Joder tío, te entiendo perfectamente
+[22:04, 27/04/2026] Test Number n8n: Es que cuando el fútbol es lo que más te llena, cualquier cosa que te lo quite te deja tocado
+[22:04, 27/04/2026] Test Number n8n: Has tenido algún momento en estos meses en el que hayas pensado en dejarlo o ni te lo planteas??
+[22:19, 27/04/2026] Andres Prado: Pues si tio
+[22:19, 27/04/2026] Andres Prado: Lo he pensado
+[22:19, 27/04/2026] Andres Prado: Un viejo de mi equipo me dijo que muchos amigos suyos se han tenido que retirar por esto
+ ----------------------------------------
+[15:36, 29/04/2026] Test Number n8n: Ya tío, es lo típico con la pubalgia… en los partidos es cuando más se nota
+[15:36, 29/04/2026] Test Number n8n: Por cierto, no sé si has visto los testimonios de otros jugadores que han pasado por lo mismo y han vuelto a jugar bien
+[15:37, 29/04/2026] Test Number n8n: Te los paso para que les eches un ojo??
+[15:39, 29/04/2026] Andres Prado: Si, he visto algunos
+[15:39, 29/04/2026] Andres Prado: Es lo que me ha motivado a escribirte
+[15:39, 29/04/2026] Andres Prado: Pero puedo verlos todos en algun lugar?
+[15:40, 29/04/2026] Test Number n8n: Claro tío, te entiendo
+[15:40, 29/04/2026] Test Number n8n: Si quieres ver todos los testimonios de jugadores que han pasado por esto, los tienes aquí:
+[15:40, 29/04/2026] Test Number n8n: https://manejatupubalgia.es/
+[15:40, 29/04/2026] Test Number n8n: Al final cada caso es diferente pero creo que te puedes sentir identificado con alguno más
+[15:41, 29/04/2026] Test Number n8n: Hay alguno que te haya llamado especialmente la atención??
+[15:47, 29/04/2026] Andres Prado: El de Galder me ha motivado mucho
+[15:47, 29/04/2026] Andres Prado: Yo tampoco le veo fin a esta lesion
+[15:48, 29/04/2026] Andres Prado: Despues de tantos meses siento que me va a tocar vivir siempre con ella
+[15:49, 29/04/2026] Test Number n8n: Joder tío, te entiendo porque con esta lesión es fácil pensar que no se sale nunca
+[15:49, 29/04/2026] Test Number n8n: Pero ya has visto que Galder también pensaba igual y al final volvió a jugar bien
+[15:49, 29/04/2026] Test Number n8n: Te has planteado alguna vez hacer un plan totalmente personalizado para ti??
+[15:50, 29/04/2026] Andres Prado: No, solo he ido haciendo los ejercicios que me han ido recomendando
+[15:50, 29/04/2026] Andres Prado: Fisios o conocidos con la lesion
+[15:51, 29/04/2026] Andres Prado: Me han dicho que me toca aprender a vivir con ello
+[15:51, 29/04/2026] Test Number n8n: Joder tío 😅
+[15:52, 29/04/2026] Test Number n8n: Eso lo he escuchado mil veces
+[15:52, 29/04/2026] Test Number n8n: Muchos llegan pensando lo mismo, pero te aseguro que hay opciones reales para mejorar y volver a jugar bien
+ ----------------------------------------
