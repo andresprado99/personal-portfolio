@@ -225,6 +225,17 @@ html[data-theme="light"] {
 
 html[data-theme="light"] .site-header {
   background: rgba(245, 243, 239, 0.92);
+  box-shadow: 0 1px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Navbar scrolled state — theme-aware, no hardcoded colours in JS */
+.site-header.scrolled {
+  background: rgba(13, 17, 23, 0.97);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+html[data-theme="light"] .site-header.scrolled {
+  background: rgba(245, 243, 239, 0.98);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.10);
 }
 
 html[data-theme="light"] .hero::before {

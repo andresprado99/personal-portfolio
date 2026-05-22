@@ -349,11 +349,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Navbar scroll effect
+    // Navbar scroll effect — use CSS class so light/dark theme works correctly
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
-        navbar.style.boxShadow = window.scrollY > 50 ? '0 4px 20px rgba(0,0,0,0.2)' : 'none';
-        navbar.style.background = window.scrollY > 50 ? 'rgba(13,17,23,0.95)' : 'rgba(13,17,23,0.8)';
+        navbar.classList.toggle('scrolled', window.scrollY > 50);
     });
 
     // Mobile menu
